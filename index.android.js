@@ -6,7 +6,7 @@
   * Factory function to provide instance of Android JavascriptInterface.      
   */ 
  function getAndroidJSInterface(oWebViewInterface){
-    var AndroidWebViewInterface = com.shripalsoni.natiescriptwebviewinterface.WebViewInterface.extend({
+    var AndroidWebViewInterface = com.shripalsoni.nativescriptwebviewinterface.WebViewInterface.extend({
         /**
          * On call from webView to android, this function is called from handleEventFromWebView method of WebViewInerface class
          */
